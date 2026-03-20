@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: black;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #001f4d;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1581090700227-4c4f50d6f88c');
+    background-size: cover;
+    color: #00bfff;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Cards */
+.card {
+    display: inline-block;
+    background: #001f4d;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.card:hover {
+    background: #00bfff;
+    color: black;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #001f4d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
